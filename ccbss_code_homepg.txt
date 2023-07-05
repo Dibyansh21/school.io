@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>ccbsss.com</title>
+    <style>
+
+      .box {
+  border: none;
+  color: rosybrown;
+  padding: 20px 150px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 8px 6px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+.list
+{
+  text-align: left;
+}
+.head{
+    text-align:center;
+    font-weight: bold;
+    /* background-color: antiquewhite; */
+    /* display: inline-block; */
+}
+.box1 {
+    background-color: white;
+  color: black;
+ 
+  border: 2px solid purple;
+}
+
+.box1:hover {
+    background-color: black; 
+  color: white; 
+  
+  
+}
+   .button {
+    display: inline-flex;
+    margin-left: 100px;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* width: 120px; */
+    /* width: auto; */
+    /* text-align: center; */
+    /* align-items: center; */
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.button1 {
+  background-color: lightyellow; 
+
+  color: black; 
+  /* border: 2px solid blueviolet; */
+  border: none;
+}
+
+.button1:hover {
+  background-color: black;
+  color: cyan;
+  cursor: pointer;
+}
+
+.slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 301px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: right;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgoldenrodyellow;
+      }
+      .boxed {
+      border: 1px solid green ;
+      }
+      </style>
+</head>
+<body style="background-color: lightyellow;">
+    <img style="image-orientation:right;" src="C:\Users\91831\Downloads\ccblogo.jpg" alt="lgog" align="left">
+    <img style="image-orientation:right;" src="C:\Users\91831\Downloads\ccblogo.jpg" alt="lgog" align="right">
+<h1 class="head"><i>Christ Church Boys' Senior Secondary School</i></h1>
+
+<button class="button button1">HOME</button>
+<button class="button button1">ADMISSIONS</button>
+<button class="button button1">PHOTO GALLERY</button>
+<button class="button button1">NOTICE</button>
+<button class="button button1">SCHOOL EVENTS</button>
+<button class="button button1">CONTACT US</button>
+<button class="button button1">STAFF LIST </button>
+<br>
+
+<div class="slider">
+    <span id="slide-1"></span>
+    <span id="slide-2"></span>
+    <span id="slide-3"></span>
+    <div class="image-container">
+      <img src="C:\Users\91831\Downloads\ccb3.jpg" class="slide" width="500" height="300" />
+      <img src="C:\Users\91831\Downloads\ccb4.jpg" class="slide" width="500" height="300" />
+      <img src="C:\Users\91831\Downloads\ccb6.jpg" class="slide" width="500" height="300" />
+    </div>
+    <div class="buttons">
+      <a href="#slide-1"></a>
+      <a href="#slide-2"></a>
+      <a href="#slide-3"></a>
+    </div>
+  </div>
+  
+  <box class="box box1">
+    <h2 style="color: rgb(64, 103, 187);"><i>Welcome to CCBSSS</i></h2>
+    The Christ Church Schools were founded in the year 1870 as Church schools,
+    a distinction they continue to enjoy, by the Rev. W. B. Drawbridge. At present,
+    the school functions under the Board of Education, Church of North India, 
+    Jabalpur Diocese with the Rt. Revd. Dr. P. C. Singh as Chairman.
+    The education imparted is based essentially on the quintessence of Christian ideals and principles.
+    It has a well qualified, dedicated and committed staff who teach pupils with extreme love and care.
+    The School has so far served and contributed to the society for the past 145 years.</box>
+    <box class="box box1">
+<h3 style="color: rgb(64, 103, 187)"><i><b>Mission for Achievement</b></i></h3>
+<p><i><b> Our Institution, founded in 1870, believes that education is fundamental in making a positive change for individuals, groups, communities and society as a whole.
+ <br> We pledge to achieve the following goals :-
+  <br>
+ 
+ <ol class="list">
+  <li>Provide tools and nurture the comprehensive and communicative skills in the English Language, in order to boost their self confidence.</li>
+  <li>Craft, an innovative learning experience which encourages creative thinking in a collaborative, technology-rich environment.</li>
+  <li> Generate a rich and varied experience in the curriculum, thus developing leaders in different facets of both school life and future.</li>
+  <li>Establish an environment which counsels both staff and students to practice ethical and morally courageous behaviour.</li>
+
+</ol></b></i></p></box>
+
+<center><iframe title="vimeo-player" src="https://player.vimeo.com/video/493201844" width="740" height="460" frameborder="0" allowfullscreen></iframe></center>
+ <a href="https://youtu.be/CAYWwS5eDvA">150TH FOUNDERS DAY VIDEO LINK</a><br>
+ <hr>
+ <b text align="right">Copyright © Nilay Singh CCBSSS - All Rights Reserved.
+  Sleeman Road
+  North Civil Lines
+  Jabalpur - 482001</b>
+ 
+</body>
+</html>

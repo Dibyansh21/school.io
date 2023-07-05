@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ccbsss.com</title>
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function clicking() {
+    let var2 = confirm("You will be redirected to xhtml form")
+  }
+  function Redirect() {
+    window.location = "newpage.html";
+  }
+  function over() {
+    let para2 = "Mouse over"
+    document.getElementById("cur2").innerHTML = para2
+  }
+  function out() {
+    let para3 = "Mouse out"
+    document.getElementById("cur2").innerHTML = para3
+
+  }
+  function togglehide() {
+    let btn = document.getElementById("btn")
+
+    if (para.style.display != 'none') {
+      para.style.display = 'none';
+    }
+    else {
+      para.style.display = 'block';
+    }
+  }
+  function WriteCookie() {
+    if (document.myform.customer.value == "") {
+      alert("Enter some value!");
+      return;
+    }
+    cookievalue = escape(document.myform.customer.value) + ";";
+    document.cookie = "name=" + cookievalue;
+    document.write("Setting Cookies : " + "name=" + cookievalue);
+  }
+  /*here */
+  function hello() {
+    document.write("Welcome to my website");
+  }
+  function ad() {
+    alert("admissions open");
+  }
+  function key() {
+    alert("on key press");
+  }
+  function xh() {
+    var a = confirm("you will be directed to XHTML form");
+    if (a) {
+      alert("okk");
+    }
+    else {
+      alert("action cancelled");
+    }
+  }
+  function naam() {
+    var name = prompt("enter your DOB:", "exampe:21022002");
+    document.write(name);
+  }
+  function key() {
+    alert("on key press");
+  }
+
+  //cookie
+  function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  let user = getCookie("username");
+  if (user != "") {
+    alert("Welcome again " + user);
+  } else {
+     user = prompt("Please enter your name:","");
+     if (user != "" && user != null) {
+       setCookie("username", user, 30);
+     }
+  }
+}
+
+//DOM
+function f2()
+{
+ var _Name = document.uform.Birth.value;
+ document.uform.Birth.value = "Your"+_Name;
+}
+</script>
+
+<body onkeypress="key()" onload="checkCookie()">
+  <img style="image-orientation:right;" src="C:\Users\91831\Downloads\ccblogo.jpg" alt="lgog" align="left">
+  <img style="image-orientation:right;" src="C:\Users\91831\Downloads\ccblogo.jpg" alt="lgog" align="right">
+  <h1 class="head"><i>Christ Church Boys' Senior Secondary School</i></h1>
+
+  <button class="button button1">HOME</button>
+  <button onmouseenter="ad()" class="button button1">ADMISSIONS</button>
+  <!--here-->
+  <button class="button button1">PHOTO GALLERY</button>
+  <!--<button class="button button1">NOTICE</button>-->
+  <button class="button button1">SCHOOL EVENTS</button>
+  <button class="button button1"><a href="Contact_Us.xhtml">CONTACT US</a></button>
+  <button class="button button1">STAFF LIST </button>
+  <form action="CCBSSA.xhtml"><button class="button button2" onclick="clicking()">XHTML FORM </button></form>
+  <!--here-->
+  <br>
+  <div class="click">
+    <button onclick="hello()" style="color: lightblue; background-color: rgb(8, 8, 36);">Click me</button>
+  </div>
+
+  <div class="slider">
+    <span id="slide-1"></span>
+    <span id="slide-2"></span>
+    <span id="slide-3"></span>
+    <div class="image-container">
+      <img src="C:\Users\91831\Downloads\ccb3.jpg" class="slide" width="500" height="300" />
+      <img src="C:\Users\91831\Downloads\ccb4.jpg" class="slide" width="500" height="300" />
+      <img src="C:\Users\91831\Downloads\ccb5.jpg" class="slide" width="500" height="300" />
+    </div>
+    <div class="buttons">
+      <a href="#slide-1"></a>
+      <a href="#slide-2"></a>
+      <a href="#slide-3"></a>
+    </div>
+  </div>
+
+  <box class="box box1">
+    <h2><i>Welcome to CCBSSS</i></h2>
+    <h3 id="cur2" onmouseover="over()" onmouseout="out()">Bring mouse here</h3>
+    The Christ Church Schools were founded in the year 1870 as Church schools,
+    a distinction they continue to enjoy, by the Rev. W. B. Drawbridge. At present,
+    the school functions under the Board of Education, Church of North India,
+    Jabalpur Diocese with the Rt. Revd. Dr. P. C. Singh as Chairman.
+    The education imparted is based essentially on the quintessence of Christian ideals and principles.
+    It has a well qualified, dedicated and committed staff who teach pupils with extreme love and care.
+    The School has so far served and contributed to the society for the past 145 years.
+
+
+  </box>
+  <section class="box box1">
+    <h2><i><b>Mission for Achievement</b></i></h2>
+    <div id="para">
+      <p><i><b> Our Institution, founded in 1870, believes that education is fundamental in making a positive change for
+            individuals, groups, communities and society as a whole.
+            <br> We pledge to achieve the following goals :-
+            <br>
+
+            <ol class="list">
+              <li>Provide tools and nurture the comprehensive and communicative skills in the English Language, in order
+                to boost their self confidence.</li>
+              <li>Craft, an innovative learning experience which encourages creative thinking in a collaborative,
+                technology-rich environment.</li>
+              <li> Generate a rich and varied experience in the curriculum, thus developing leaders in different facets
+                of
+                both school life and future.</li>
+              <li>Establish an environment which counsels both staff and students to practice ethical and morally
+                courageous behaviour.</li>
+
+            </ol>
+          </b></i></p>
+    </div>
+    <button id="btn" onclick="togglehide()" style="background-color: black; color: cornflowerblue;">show/hide</button>
+  </section>
+  <div>
+    <form name="uform">
+      enter your DOB:<input type="date" name="Birth" placeholder="your DOB">
+      <input type="button" value="printme" ondblclick="f2()">
+    </form>
+  </div>
+  <center><iframe title="vimeo-player" src="https://player.vimeo.com/video/493201844" width="740" height="460"
+      frameborder="0" allowfullscreen></iframe></center>
+  <a href="https://youtu.be/CAYWwS5eDvA">150TH FOUNDERS DAY VIDEO LINK</a><br>
+  <hr>
+  <h3>A cookie example</h3>
+  <form name="myform" action="">
+    Enter name: <input type="text" name="customer" />
+    <input type="button" value="Set Cookie" onclick="WriteCookie();" />
+  </form>
+  <br>
+  <div id="stud">
+    <h3 onclick="naam()">Click me(prompt)</h3>
+  </div>
+  <div class="copy">
+    Copyright © Nilay Singh CCBSSS - All Rights Reserved.
+    Sleeman Road
+    North Civil Lines
+    Jabalpur - 482001
+  </div>
+
+</body>
+
+</html>

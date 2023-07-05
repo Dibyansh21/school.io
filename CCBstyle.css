@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(244, 250, 188) ;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+.bor {
+    border-radius: 16px;
+    color: white;
+    margin: 16px 550px;
+    padding: 26px;
+    background-color: rgb(3, 21, 54);
+    border: 2px solid red;
+    width: 35%;
+    font-size: 23px;
+
+}
+
+.sub{
+    text-align: center;
+}
+.sub button{
+    color: lightskyblue;
+    background-color: rgb(17, 16, 27);
+}
+
+.sub button:hover{
+    color: green;
+}
+
+.gen {
+    margin: 3px;
+    padding-right: 60px;
+}
+
+.nm {
+    font-size: 23px;
+}
+

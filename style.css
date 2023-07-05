@@ -1,0 +1,178 @@
+body{
+    background-color: lightyellow;
+}
+
+h1:hover{
+  color:rgb(15, 95, 187); 
+}
+
+h2{
+  color: rgb(1, 26, 42);
+}
+h2:hover{
+  color:rgb(9, 73, 146) ;
+}
+.box {
+    border: none;
+    color: rosybrown;
+    padding: 20px 150px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 6px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+  }
+  .list
+  {
+    text-align: left;
+  }
+  .head{
+      text-align:center;
+      font-weight: bold;
+      /* background-color: antiquewhite; */
+      /* display: inline-block; */
+  }
+
+  .box1 {
+      background-color: white;
+    color: black;
+    width: 83%;
+    background-image: url('https://th.bing.com/th/id/OIP.NevmrTX5YgrBQ1R3U7UqvwHaEK?w=287&h=180&c=7&o=5&pid=1.7');
+    border: 2px solid purple;
+    border-radius: 14px;
+  }
+  
+  .box1:hover {
+    background-image: inherit;
+      background-color: black; 
+    color: white; 
+  }
+
+     .button {
+      display: inline-flex;
+      margin-left: 100px;
+      padding: 10px 10px;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      border-radius: 10px;
+      /* width: 120px; */
+      /* width: auto; */
+      /* text-align: center; */
+      /* align-items: center; */
+      font-size: 15px;
+      font-weight: bold;
+  
+  }
+  
+  .button1 {
+    background-color: lightyellow; 
+  
+    color: black; 
+    /* border: 2px solid blueviolet; */
+    border: none;
+  }
+  .button1 a{
+    text-decoration: none;
+    list-style: none;
+  }
+  .button1:hover {
+    background-color: black;
+    color: cyan;
+    cursor: pointer;
+  }
+  
+  .button2{
+    cursor: pointer;
+  }
+  .button2:hover{
+    background-color: lightskyblue;
+  }
+
+  .slider {
+          width: 500px;
+          height: 300px;
+          background-color: yellow;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 0px;
+          text-align: center;
+          overflow: hidden;
+        }
+        .image-container {
+          width: 1500px;
+          background-color: pink;
+          height: 301px;
+          clear: both;
+          position: relative;
+          -webkit-transition: left 2s;
+          -moz-transition: left 2s;
+          -o-transition: left 2s;
+          transition: left 2s;
+        }
+        .slide {
+          float: left;
+          margin: 0px;
+          padding: 0px;
+          position: right;
+        }
+        #slide-1:target ~ .image-container {
+          left: 0px;
+        }
+        #slide-2:target ~ .image-container {
+          left: -500px;
+        }
+        #slide-3:target ~ .image-container {
+          left: -1000px;
+        }
+        .buttons {
+          position: relative;
+          top: -20px;
+        }
+        .buttons a {
+          display: inline-block;
+          height: 15px;
+          width: 15px;
+          border-radius: 50px;
+          background-color: lightgoldenrodyellow;
+        }
+        .boxed {
+        border: 1px solid green ;
+        }
+
+ .copy{
+   background-color: black;
+   color: white;
+   border: 2px solid white;
+   text-align: center;
+   height: 33px;
+   margin: 9px;
+   padding: 14px;
+ }       
+
+ .click{
+  display:inline-block;
+  background-color: black;
+  padding: 0px;
+  margin-left:900px;
+  border:2px solid red;
+  border-radius: 6px;
+  cursor: pointer;
+ }
+
+ #stud{
+   display: inline-block;
+   align-items: center;
+   border: 2px solid red;
+   background-color: black;
+   color: aquamarine;
+   margin-left: 900px;
+   cursor: pointer;
+ }
+
+ #stud:hover{
+   color: rgb(10, 71, 141);
+   background-color: rgb(8, 7, 12);
+   border: 1px solid yellow;
+ }

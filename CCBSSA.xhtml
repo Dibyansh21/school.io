@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head> 
+    <title>
+        ADMISSION FORM
+    </title>
+    <script>
+        function f1()
+        {
+            confirm("are you sure");
+        }
+    </script>
+    <link href="CCBstyle.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1><u>ADMISSION FORM</u></h1>
+    <div class="bor">
+        <form>
+            <div class="nm">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name" />
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name" />
+            </div>
+            <br />
+            <div class="gen">
+                Gender: &nbsp; Male<input type="radio" name="mygen" /> &nbsp; Female<input type="radio" name="mygen" />
+                &nbsp;Other<input type="radio" name="mygen" />
+            </div>
+            <br/>
+            <div>Date of Birth: <input type="date" name="myDate"/></div>
+            <br />
+            <div class="div">Class:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="number" name="myclass" placeholder="admission for class" /></div>
+            <br />
+            <div>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="myEmail" placeholder="enter your email" /><br />
+                <br />
+            </div>
+            Nationality:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="mynationality" placeholder="Indian" /><br/>
+            <br/>
+            <div>Contact No.:&nbsp;&nbsp; <input type="number" name="mynumber" placeholder="your phone no."/></div>
+            <br/>
+            <div>Residential Address:<br/>
+                <textarea name="myText" cols="60"
+                    rows="10" placeholder="enter your address"></textarea>
+                <br/>
+            </div>
+            <br/>
+            <br/>
+            <!--
+            <div class="sub"><input type="submit" name="mysubmit"/>
+                <input type="reset" name="myreset"/></div>-->
+            <div class="sub">
+                <button onclick="f1()">Submit</button>
+                <button onclick="f1()">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

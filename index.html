@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirected</title>
+    <script>
+         var seconds=0;
+    function displayseconds(){
+      seconds+=1;
+      document.getElementById("secondsdisplay").innerText="this page will be redirect in "+seconds+" seconds..";             
+    }
+    setInterval(displayseconds,1000);
+    function redirectpage(){
+      window.location="Home_pg.html";
+    }
+    setTimeout('redirectpage()',4000);
+    </script>
+    <style>
+        
+        h1{
+            color: rgb(138, 138, 211);
+            background-color: burlywood;
+        }
+        img{
+            margin-left: 900px;
+            height: 60px;
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">you will be redirected to desired page </h1> 
+     <div id="secondsdisplay"></div>
+    <img src="https://gifimage.net/wp-content/uploads/2017/09/animated-loading-gif-transparent-background-12.gif">
+
+</body>
+</html>
